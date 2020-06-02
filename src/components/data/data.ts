@@ -23,8 +23,10 @@ export const dataApi = {
    async getData(searchString: string): Promise<Array<dataType>> {
        return new Promise((res, rej) => {
            if(searchString) {
+               setTimeout(() => {
                let result = data.filter((word:dataType) => word.name.indexOf(searchString) > -1)
                res(result)
+               }, 1500)
            } else res([])
 
        })
