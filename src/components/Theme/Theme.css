@@ -1,0 +1,47 @@
+/*-------------styles for input---------------*/
+
+.initialInput, .blueThemeInput {
+    outline: none;
+    width: 300px;
+    height: 22px;
+    padding: 4px 4px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.initialInput {
+    color: black;
+    border: 1px solid black;
+}
+
+
+.blueThemeInput {
+    color: midnightblue;
+    border: 2px solid deepskyblue;
+
+}
+
+/*-------------styles for resultsBox---------------*/
+
+
+.box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.initialResultBox, .blueThemeBox {
+    font-size: 16px;
+    width: 450px;
+    padding: 10px 10px;
+
+}
+
+
+.initialResultBox {
+    border-bottom: 1px solid black;
+}
+
+.blueThemeBox {
+    border-bottom: 2px solid midnightblue;
+}

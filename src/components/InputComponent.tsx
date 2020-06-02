@@ -1,9 +1,12 @@
 import React from 'react'
+import './Theme/Theme.css'
 
 
 type PropsType = {
     onItemChange: (inputLetter: string)=> void,
-    value: string
+    value: string,
+    styleForInput: string
+
 }
 
 class InputComponent extends React.Component<PropsType> {
@@ -14,8 +17,11 @@ class InputComponent extends React.Component<PropsType> {
 
     render() {
         return <div>
-            <input value={this.props.value} placeholder='Type your request' onChange={this.onItemChange} />
-            <button>search</button>
+            <input
+                value={this.props.value}
+                placeholder='Type your request'
+                className={`${this.props.styleForInput}`}
+                onChange={this.onItemChange} />
         </div>
     }
 }

@@ -5,13 +5,14 @@ import {dataType} from "./data/data";
 
 type PropsType = {
     data: Array<dataType>
+    styleForResults: string
 }
 
 
 const BoxResults = (props: PropsType) => {
-    return <div>
+    return <div className='box'>
         {props.data.map((r: dataType) =>
-            <Result key={r.id} result={r.name}/>
+            <Result key={r.id} result={r.name} styleForResults={props.styleForResults}/>
         )}
     </div>
 }

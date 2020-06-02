@@ -1,4 +1,6 @@
 import React from 'react';
+import '../App.css';
+
 
 import InputComponent from "./InputComponent";
 import Loader from './loader/LoaderComponent';
@@ -12,11 +14,15 @@ type PropsType = {
 
 
 class InputContainer extends React.Component<PropsType> {
+
+
     state = {
         itemName: '',
-
         data: [],
-        loading: false
+        loading: false,
+        styleForInput: 'blueThemeInput',
+        styleForResults: 'blueThemeBox',
+
     }
 
     onItemChange = (value: string) => {
@@ -35,16 +41,20 @@ class InputContainer extends React.Component<PropsType> {
     }
 
 
-
     render() {
 
         return (
-            <div className="App">
+            <div className='searchContainer'>
                 <h1>Challenge project of Clearmove</h1>
-                <InputComponent value={this.state.itemName} onItemChange={this.onItemChange}/>
+                <InputComponent
+                    value={this.state.itemName}
+                    styleForInput={this.state.styleForInput}
+                    onItemChange={this.onItemChange}/>
                 {this.state.loading ?
                     <Loader/> :
-                    <BoxResults data={this.state.data}/>
+                    <BoxResults
+                        styleForResults={this.state.styleForResults}
+                        data={this.state.data}/>
                 }
             </div>
         );
@@ -53,8 +63,12 @@ class InputContainer extends React.Component<PropsType> {
 
 export default InputContainer;
 
+
+
 type AppStateType = {
     itemName: string,
     data: Array<dataType>,
     loading: boolean
+    styleForInput: '',
+    styleForResults: '',
 }
