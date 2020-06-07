@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Clearmove/static/css/main.29fd4d2e.chunk.css",
-    "main.js": "/Clearmove/static/js/main.0ba6ed4f.chunk.js",
-    "main.js.map": "/Clearmove/static/js/main.0ba6ed4f.chunk.js.map",
-    "runtime-main.js": "/Clearmove/static/js/runtime-main.a62a904e.js",
-    "runtime-main.js.map": "/Clearmove/static/js/runtime-main.a62a904e.js.map",
-    "static/js/2.d578774f.chunk.js": "/Clearmove/static/js/2.d578774f.chunk.js",
-    "static/js/2.d578774f.chunk.js.map": "/Clearmove/static/js/2.d578774f.chunk.js.map",
-    "index.html": "/Clearmove/index.html",
-    "precache-manifest.d66ef5b10a56cfc295b261831f03b895.js": "/Clearmove/precache-manifest.d66ef5b10a56cfc295b261831f03b895.js",
-    "service-worker.js": "/Clearmove/service-worker.js",
-    "static/css/main.29fd4d2e.chunk.css.map": "/Clearmove/static/css/main.29fd4d2e.chunk.css.map",
-    "static/js/2.d578774f.chunk.js.LICENSE.txt": "/Clearmove/static/js/2.d578774f.chunk.js.LICENSE.txt"
+    "main.css": "/Clearmove_IT_challenge/static/css/main.29fd4d2e.chunk.css",
+    "main.js": "/Clearmove_IT_challenge/static/js/main.a59991c6.chunk.js",
+    "main.js.map": "/Clearmove_IT_challenge/static/js/main.a59991c6.chunk.js.map",
+    "runtime-main.js": "/Clearmove_IT_challenge/static/js/runtime-main.e7fa906b.js",
+    "runtime-main.js.map": "/Clearmove_IT_challenge/static/js/runtime-main.e7fa906b.js.map",
+    "static/js/2.d578774f.chunk.js": "/Clearmove_IT_challenge/static/js/2.d578774f.chunk.js",
+    "static/js/2.d578774f.chunk.js.map": "/Clearmove_IT_challenge/static/js/2.d578774f.chunk.js.map",
+    "index.html": "/Clearmove_IT_challenge/index.html",
+    "precache-manifest.73eddc55d7dc89c277915dcf4306ee4b.js": "/Clearmove_IT_challenge/precache-manifest.73eddc55d7dc89c277915dcf4306ee4b.js",
+    "service-worker.js": "/Clearmove_IT_challenge/service-worker.js",
+    "static/css/main.29fd4d2e.chunk.css.map": "/Clearmove_IT_challenge/static/css/main.29fd4d2e.chunk.css.map",
+    "static/js/2.d578774f.chunk.js.LICENSE.txt": "/Clearmove_IT_challenge/static/js/2.d578774f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a62a904e.js",
+    "static/js/runtime-main.e7fa906b.js",
     "static/js/2.d578774f.chunk.js",
     "static/css/main.29fd4d2e.chunk.css",
-    "static/js/main.0ba6ed4f.chunk.js"
+    "static/js/main.a59991c6.chunk.js"
   ]
 }
