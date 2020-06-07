@@ -2,6 +2,7 @@
   "name": "clearmove",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tatiana-256.github.io/Clearmove/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,14 +11,19 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-test-renderer": "^16.9.2",
+    "gh-pages": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1",
     "typescript": "~3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,5 +42,4 @@
       "last 1 safari version"
     ]
   }
-
 }
