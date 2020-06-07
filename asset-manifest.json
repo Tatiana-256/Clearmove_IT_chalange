@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Clearmove/static/css/main.29fd4d2e.chunk.css",
+    "main.js": "/Clearmove/static/js/main.0ba6ed4f.chunk.js",
+    "main.js.map": "/Clearmove/static/js/main.0ba6ed4f.chunk.js.map",
+    "runtime-main.js": "/Clearmove/static/js/runtime-main.a62a904e.js",
+    "runtime-main.js.map": "/Clearmove/static/js/runtime-main.a62a904e.js.map",
+    "static/js/2.d578774f.chunk.js": "/Clearmove/static/js/2.d578774f.chunk.js",
+    "static/js/2.d578774f.chunk.js.map": "/Clearmove/static/js/2.d578774f.chunk.js.map",
+    "index.html": "/Clearmove/index.html",
+    "precache-manifest.d66ef5b10a56cfc295b261831f03b895.js": "/Clearmove/precache-manifest.d66ef5b10a56cfc295b261831f03b895.js",
+    "service-worker.js": "/Clearmove/service-worker.js",
+    "static/css/main.29fd4d2e.chunk.css.map": "/Clearmove/static/css/main.29fd4d2e.chunk.css.map",
+    "static/js/2.d578774f.chunk.js.LICENSE.txt": "/Clearmove/static/js/2.d578774f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a62a904e.js",
+    "static/js/2.d578774f.chunk.js",
+    "static/css/main.29fd4d2e.chunk.css",
+    "static/js/main.0ba6ed4f.chunk.js"
+  ]
+}
